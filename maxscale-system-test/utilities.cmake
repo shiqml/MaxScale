@@ -101,7 +101,7 @@ add_test_executable_notest(sysbench_example.cpp sysbench_example replication)
 
 # Build the MariaDB Connector/C 3.0
 
-set(CONNECTOR_C_VERSION "v3.0.2" CACHE STRING "The Connector-C version to use")
+set(CONNECTOR_C_VERSION "v3.0.5" CACHE STRING "The Connector-C version to use")
 
 include(ExternalProject)
 ExternalProject_Add(connector-c
